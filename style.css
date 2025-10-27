@@ -1,6 +1,7 @@
 body {
     width: 1200px;
     margin: auto;
+
 }
 
 .header {
@@ -9,37 +10,47 @@ body {
     justify-content: space-between;
     margin-top: 40px;
     gap: 30px;
-}
 
-.ask-btn {
-    background-color: #33836E;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    color: white;
-    font-size: 16px;
 }
 
 .phone-number {
     font-weight: bold;
     font-size: 18px;
     display: block;
+    color: #125b2c;
 }
 
 .seacrh {
-    width: 427px;
-    border: none;
+   width: 427px;
+   border: none;
+   font-size: 16px;
+   background-color: #bebbcda2;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.contact-info{
+   color: gray;
+}
+
+.ask-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #33836E;
+    border-radius: 10px;
+    color: white;
     font-size: 16px;
-    background-color: #bebbcda2;
-    padding: 10px;
+    gap: 10px;
 }
 
 .menu {
-    display: flex;
-    margin-top: 40px;
-    gap: 30px;
-    justify-content: space-between;
-    font-size: 16px;
+   display: flex;
+   margin-top: 30px;
+   gap: 30px;
+   justify-content: space-between;
+   font-size: 16px;
+   align-items: center;
 }
 
 .menu a{
@@ -47,54 +58,208 @@ body {
     color: black;
 }
 
-.menu-border{
-    border: 1px solid rgb(205, 205, 205);
-    border-radius: 10px;
-    padding: 10px 20px;
-    align-items: center;
-}
-
-.Line {
-    margin-top: 20px;
-    text-decoration: none;
-    color: rgba(47, 43, 67, 0.5);
-}
-
-.onas{
+.menu-border {
     display: flex;
-}
-
-.hotline-help {
-    display: block;
-    color: #140A32;
-    font-size: 38px;
-    padding: 10px 20px;
-}
-
-.hotline-help p {
-    font-size: 16px;
-}
-
-.ask-ur {
-    background-color: #33836e;
-    border: none;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(205, 201, 203);
     border-radius: 10px;
-    padding: 16px 36px 18px;
+    padding: 10px 20px;
     gap: 10px;
-    color: white;
-    font-size: 16px;
-}
-                    
-.phone-number {
-  font-weight: 427px;
-  border: none;
-  font-size: 16px;
-  background-color: #bebbcda2;
-  padding: 10px; 
 }
 
-.seacrh{
-    width: 427px;
-    border: none;
-    font-size: ;
+.menu-antrance{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   
+}
+
+
+.hotline{
+   font-size: 16px;
+   color: rgb(99, 96, 96);
+   margin-bottom: 15px;
+   margin-top: 40px;
+}
+
+.hotline-help{
+   display: flex;
+   gap: 190px;
+   margin-bottom: 20px;
+   align-items: center;
+   
+}
+.hotline-help-text{
+   width: 600px;
+
+}
+
+.btn-ask{
+   padding: 10px 20px;
+   color: white;
+   border: none;
+   font-weight: 500;
+   background-color: #33836E;
+   border-radius: 10px;
+}
+
+.info{
+   display:flex;
+   gap: 30px;
+}
+
+.phone{
+   color: #125b2c;
+   font-weight: bold;
+   font-size: 18px;
+   display: block;
+   text-decoration: underline;
+}
+
+.question{
+   color: rgb(99, 96, 96);
+   display: flex;
+   gap: 30px;
+}
+
+.info-text{
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   gap: 40px;
+   font-size: 14px;
+   margin-top: 30px;
+}
+
+.info-text-text{
+   display: flex;
+   text-decoration: none;
+   color: black;
+   align-items: center;
+   flex-direction: row;
+   gap: 10px;
+}
+
+.image img{
+   height: 450px;
+}
+
+
+.help-text{
+   display: block;
+   max-width: 1140px;
+   font-size: 18px;
+   gap: 25px;
+}
+
+.consultation{
+   display: block;
+   justify-content: space-between;
+   margin-top: 80px;
+}
+
+.consultation-content{
+   display: flex;
+   gap: 50px;
+   width: 1200px;
+}
+
+.consultation1{
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 10px;
+   border: 1px solid rgb(205, 201, 203);
+   border-radius: 20px;
+   width: 260px;
+   height: 170px;
+}
+
+.consultation-phone{
+   color: #140A32;
+   font-weight: bold;
+   font-size: 18px;
+   display: block;
+}
+
+.consultation1 a{
+   display: flex;
+   text-decoration: none;
+   color: green;
+
+}
+
+.tablo{
+display: flex;
+margin-top: 80px;
+width: 1200px;
+height: 200px;
+background: rgba(51, 131, 110, 1);
+border-radius: 20px;
+gap: 70px;
+}
+
+.tablo-text{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px;
+gap: 10px;
+width: 334px;
+height: 100px;
+left: 313px;
+color: white;
+}
+
+.tablo-online{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px;
+gap: 10px;
+width: 334px;
+height: 100px;
+left: 313px;
+color: white;
+}
+
+.help-info{
+margin-top: 80px;
+}
+
+.glav-blok{
+display: flex;
+gap: 30px;
+margin-top: 30px;
+}
+
+.blok{
+display: flex;
+border: 1px solid rgb(205, 201, 203);
+width: 680px;
+height: 180px;
+border-radius: 20px;
+align-items: center;
+font-size: 16px;
+gap: 20px;
+}
+
+.glav-blok2{
+display: flex;
+gap: 30px;
+margin-top: 30px;
+}
+
+.blok2{
+display: flex;
+border: 1px solid rgb(205, 201, 203);
+width: 680px;
+height: 180px;
+border-radius: 20px;
+align-items: center;
+font-size: 16px;
+gap: 20px;
 }
